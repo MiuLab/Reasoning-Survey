@@ -1,0 +1,25 @@
+## Architecture
+
+- Introduction
+- Related Work:  Other related Survey
+- Improvement Method
+    - Performance
+        - prompting: COT, TOT…
+        - post-training: SFT, RL, MCTS
+        - tool using: external web browser,…
+    - Efficiency
+        - Training-wise
+            - Data
+            - Epoch
+        - Inference-wise
+- Evaluation & Dataset & Benchmark
+    - Evaluation method
+        - cost
+        - thinking-time
+        - readability
+        - human feedback
+- Conclusion & Future Direction
+    - Problem & challenge
+        - safety
+        - overthinking
+        - theory
