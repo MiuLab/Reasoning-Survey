@@ -18,11 +18,14 @@ We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As show
   - Hidden-layer Search
   - Self-improvement
 - Trajectory Optimization
+
   We reviewed recent advances in optimizing test-time reasoning (TTS) for large language models by controlling the sequence of reasoning steps to balance accuracy and computational cost. We categorized current methods into reinforcement learning (RL) and distillation-based approaches. 
   - RL
-    RL techniques use reward-based feedback, such as step-wise rewards and meta-reinforcement tuning (MRT), to adapt compute usage and encourage concise, effective reasoning. While RL can improve sampling efficiency and optimize for fewer reasoning steps, recent work has shown it may limit reasoning diversity, primarily reweighting the base model’s outputs and risking reward hacking. Newer approaches like min-form credit assignment address these challenges by achieving high accuracy with significantly fewer steps.
+
+      RL techniques use reward-based feedback, such as step-wise rewards and meta-reinforcement tuning (MRT), to adapt compute usage and encourage concise, effective reasoning. While RL can improve sampling efficiency and optimize for fewer reasoning steps, recent work has shown it may limit reasoning diversity, primarily reweighting the base model’s outputs and risking reward hacking. Newer approaches like min-form credit assignment address these challenges by achieving high accuracy with significantly fewer steps.
   - Distillation
-    Distillation methods transfer structured and diverse reasoning strategies from large teacher models to smaller student models, enabling concise inference without reliance on long chains of steps. These methods leverage teacher exploration (including multiple reasoning paths or tree-structured chains of thought), improved supervision formats, and curated datasets to ensure informativeness and generalization. Distilled models often match or surpass RL-trained models within similar compute budgets and generalize better to new tasks.
+
+      Distillation methods transfer structured and diverse reasoning strategies from large teacher models to smaller student models, enabling concise inference without reliance on long chains of steps. These methods leverage teacher exploration (including multiple reasoning paths or tree-structured chains of thought), improved supervision formats, and curated datasets to ensure informativeness and generalization. Distilled models often match or surpass RL-trained models within similar compute budgets and generalize better to new tasks.
 
 ### ADAPT
 
