@@ -1,6 +1,8 @@
-### Architecture
+# Revisiting Test-Time Scaling: A Survey and a Diversity Aware Method for Efficient Reasoning
 
-## Introduction
+## Architecture
+
+### Introduction
 Large Language Models (LLMs) have become central to modern NLP applications such as generation, translation, and question answering. Their success largely stems from transformer-based architectures and large-scale pretraining, which endow models with strong fluency and generalization. However, standard autoregressive decoding imposes a fixed inference routine that limits their performance on complex reasoning tasks. As model sizes grow, the training cost escalates, yet the marginal gains diminish. To mitigate this, Test-Time Scaling (TTS) has emerged as a promising direction: it enhances model performance by allocating more compute during inference, allowing adaptation to input complexity without retraining.
 
 While TTS has shown effectiveness, its performance is often tied to the model's intrinsic capacity for generation diversity—a factor not yet well understood or explicitly optimized. In particular, models optimized for reasoning, such as distilled variants, tend to exhibit reduced output variance, which may dampen the gains from TTS. This raises an open question: Can diversity-aware fine-tuning improve TTS effectiveness for reasoning models?
