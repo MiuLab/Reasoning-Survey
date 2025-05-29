@@ -17,7 +17,13 @@ We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As show
 ### Related Work:  Other related Survey
 ### Test Time Scaling
 - Sampling
+  <div align=center>
+  <img src="https://github.com/MiuLab/Reasoning-Survey/blob/main/images/sampling.drawio.pdf" width="60%" height="60%">
+  </div>
 - Search
+  <div align=center>
+  <img src="https://github.com/MiuLab/Reasoning-Survey/blob/main/images/search.drawio.pdf" width="60%" height="60%">
+  </div>
   - CoT
   - Hidden-layer Search
   - Self-improvement
