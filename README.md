@@ -10,7 +10,7 @@ While TTS has shown effectiveness, its performance is often tied to the model's 
 To address this, we first conduct a strategy-oriented survey of recent TTS methods, categorizing them into three major families: Sampling, Search, and Trajectory Optimization and identify diversity as a critical enabler of TTS success. Next, we propose a simple yet effective fine-tuning method, ADAPT (A Diversity Aware Prefix fine-Tuning), which enhances early-stage output diversity via prefix-tuned sampling.
 
 We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As shown in , ADAPT achieves 80% accuracy with eight times fewer samples, outperforming all baseline models in efficiency while retaining strong peak performance.
-<img src="[https://github.com/MiuLab/Reasoning-Survey/blob/main/images/output-14.png]" width="50%" height="50%">
+<img src="https://github.com/MiuLab/Reasoning-Survey/blob/main/images/output-14.png" width="50%" height="50%">
 ### Related Work:  Other related Survey
 ### Test Time Scaling
 - Sampling
