@@ -79,7 +79,7 @@ def get_data_path(dataset_name, data_ratio=-1):
         data_path = "data/Math/limo.jsonl"
         data_ratio = -1
     elif dataset_name == "math500":
-        data_path = "data/math_test/math500/test.jsonl"
+        data_path = "data/math500/test.jsonl"
         data_ratio = -1
     elif dataset_name == "s1":
         data_path = "data/s1/gen_s1_59k.jsonl"
