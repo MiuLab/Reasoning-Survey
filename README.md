@@ -11,6 +11,7 @@ To address this, we first conduct a strategy-oriented survey of recent TTS metho
 
 We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As shown in , ADAPT achieves 80% accuracy with eight times fewer samples, outperforming all baseline models in efficiency while retaining strong peak performance.
 <img src="https://github.com/MiuLab/Reasoning-Survey/blob/main/images/output-14.png" width="50%" height="50%">
+Figure 1: Accuracy vs. Inference Cost (log scale).Each point represents a language model.
 ### Related Work:  Other related Survey
 ### Test Time Scaling
 - Sampling
