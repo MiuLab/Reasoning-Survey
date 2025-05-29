@@ -30,6 +30,20 @@ We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As show
   - Distillation
 
       Distillation methods transfer structured and diverse reasoning strategies from large teacher models to smaller student models, enabling concise inference without reliance on long chains of steps. These methods leverage teacher exploration (including multiple reasoning paths or tree-structured chains of thought), improved supervision formats, and curated datasets to ensure informativeness and generalization. Distilled models often match or surpass RL-trained models within similar compute budgets and generalize better to new tasks.
+  - Reference papers
+    - [Towards thinking-optimal scaling of test-time compute for llm reasoning](https://arxiv.org/abs/arXiv:2502.18080)
+    - [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314)
+    - [Scaling Test-Time Compute Without Verification or RL is Suboptimal](https://arxiv.org/abs/2502.12118)
+    - [Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.07572)
+    - [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837)
+    - [Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning](https://arxiv.org/abs/2504.15275)
+    - [Distilling Reasoning Capabilities into Smaller Language Models](https://arxiv.org/abs/2212.00193)
+    - [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301)
+    - [Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning](https://arxiv.org/abs/2502.18001)
+    - [Recall with Reasoning: Chain-of-Thought Distillation for Mamba's Long-Context Memory and Extrapolation](https://arxiv.org/abs/2505.03320)
+    - [Towards Widening The Distillation Bottleneck for Reasoning Models](https://arxiv.org/abs/2503.01461)
+    - [Knowledge Distillation with Training Wheels](https://arxiv.org/abs/2502.17717)
+    - [Z1: Efficient Test-time Scaling with Code](https://arxiv.org/abs/2504.00810)
 
 ### ADAPT
 
