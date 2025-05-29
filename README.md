@@ -29,9 +29,9 @@ We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As show
   - human feedback
 ### Conclusion & Future Direction
 - Problem & challenge
-  -While ADAPT demonstrates strong performance under Best-of-N sampling, several limitations remain. First, all experiments are conducted on a single reasoning domain—mathematical problem solving. It remains unclear whether similar diversity-induced gains would generalize to broader tasks such as commonsense or multi-hop QA. Second, our evaluations focus on a relatively small model; scaling effects and interactions with larger architectures are left for future work.
+  - While ADAPT demonstrates strong performance under Best-of-N sampling, several limitations remain. First, all experiments are conducted on a single reasoning domain—mathematical problem solving. It remains unclear whether similar diversity-induced gains would generalize to broader tasks such as commonsense or multi-hop QA. Second, our evaluations focus on a relatively small model; scaling effects and interactions with larger architectures are left for future work.
 
-  -Third, although ADAPT improves sample efficiency, it does not directly optimize diversity metrics (e.g., self-BLEU, pairwise entropy), and its diversity-enhancing effect is inferred only through indirect accuracy gains. Explicit diversity measurements could provide more rigorous support for the core hypothesis. Finally, we fix the prefix length and data mixture ratio throughout; exploring how these hyperparameters impact diversity and performance may yield further improvements.
+  - Third, although ADAPT improves sample efficiency, it does not directly optimize diversity metrics (e.g., self-BLEU, pairwise entropy), and its diversity-enhancing effect is inferred only through indirect accuracy gains. Explicit diversity measurements could provide more rigorous support for the core hypothesis. Finally, we fix the prefix length and data mixture ratio throughout; exploring how these hyperparameters impact diversity and performance may yield further improvements.
   - safety
   - overthinking
   - theory
