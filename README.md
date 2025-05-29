@@ -49,7 +49,7 @@ We evaluate ADAPT on a compact reasoning model under Best-of-N sampling. As show
     - Inference-wise
 ### Evaluation & Dataset & Benchmark
 - Evaluation method
-  We evaluate model performance using four metrics. acc_maj denotes the final accuracy obtained via majority voting over N sampled outputs. Improvement measures the absolute increase in acc_maj relative to the baseline performance at N=2. Gain per generation quantifies the average accuracy gain when doubling the sample size (e.g., from N=2 to N=4). Finally, Min N to hit threshold refers to the smallest sample count N required to reach a target acc_maj, such as 80%.
+We evaluate model performance using four metrics. acc_maj denotes the final accuracy obtained via majority voting over N sampled outputs. Improvement measures the absolute increase in acc_maj relative to the baseline performance at N=2. Gain per generation quantifies the average accuracy gain when doubling the sample size (e.g., from N=2 to N=4). Finally, Min N to hit threshold refers to the smallest sample count N required to reach a target acc_maj, such as 80%.
   - cost
   - thinking-time
   - readability
